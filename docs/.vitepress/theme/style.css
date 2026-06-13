@@ -1,0 +1,24 @@
+.VPNavBarTitle .title:after {
+  content: "v3.1.5";
+  font-size: 0.6rem;
+  font-weight: 600;
+  font-family: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, monospace;
+  margin-left: 7px;
+  padding: 0 6px;
+  border-radius: 4px;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--vp-c-divider); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--vp-c-text-3); }
+
+.VPFeature { border-radius: 12px; transition: transform .25s, box-shadow .25s; }
+.VPFeature:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,.12); }
+
+.vp-doc a { transition: opacity .2s; }
+.vp-doc a:hover { opacity: .75; }
+.vp-doc table { border-radius: 8px; overflow: hidden; }
+.custom-block { border-radius: 8px; }

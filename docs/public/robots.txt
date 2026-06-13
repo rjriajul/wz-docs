@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rjriajul.github.io/wz-docs/sitemap.xml
